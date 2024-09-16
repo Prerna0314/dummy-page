@@ -374,6 +374,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<button id="transactionButton" onclick="transactionComplete()">Complete Transaction</button>
 
+<script>
+  function transactionComplete() {
+    alert('Transaction Completed! This will be tracked.');
+    // You can fire a custom event here if needed
+  }
+</script>
 	</body>
 </html>
